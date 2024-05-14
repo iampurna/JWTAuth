@@ -1,0 +1,41 @@
+<div class="h-screen flex items-center justify-center">
+    <form class="shadow-md rounded-md p-5 bg-white w-1/5">
+        <div class="py-4">
+            <h1 class="font-bold text-left py-2">
+                Register
+            </h1>
+            <h6 class="text-slate-600 text-base">
+                Create your account
+            </h6>
+        </div>
+        <mat-form-field appearance="fill" clas="w-full">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Email">
+            <mat-icon matPrefix>email</mat-icon>
+        </mat-form-field>
+        <mat-form-field appearance="fill" clas="w-full">
+            <mat-label>Full Name</mat-label>
+            <input matInput placeholder="Name">
+            <mat-icon matPrefix>person</mat-icon>
+        </mat-form-field>
+        <mat-form-field appearance="fill" clas="w-full">
+            <mat-label>Roles</mat-label>
+            <mat-select multiple>
+                <mat-option>Admin</mat-option>
+                <mat-option>User</mat-option>
+            </mat-select> <mat-icon matPrefix>groups</mat-icon>
+        </mat-form-field>
+        <mat-form-field appearance="fill" clas="w-full">
+            <mat-label>Password</mat-label>
+            <input matInput placeholder="Password">
+            <mat-icon matPrefix>lock</mat-icon>
+        </mat-form-field>
+        <mat-form-field appearance="fill" clas="w-full">
+            <mat-label>Confirm Password</mat-label>
+            <input matInput placeholder="Confirm Password">
+            <mat-icon matPrefix>lock</mat-icon>
+        </mat-form-field>
+        <button class="w-full border-collapse border-slate-200 rounded-md disabled:bg-purple-400 py-2 px-3
+        bg-purple-700" type="submit">Register</button>
+    </form>
+</div>
